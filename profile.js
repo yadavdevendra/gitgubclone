@@ -36,7 +36,7 @@ function getdata(data) {
     document.getElementById('location').innerHTML = data.location;
     document.getElementById('mail').innerHTML = data.email + "@gmail.com";
     document.getElementById('profileWebsite').innerHTML = "<a href=" + data.id + ">" + data.blog + "</a>";
-    document.getElementById('socialMedia').innerHTML = "<a href='https://twitter.com/" + data.gitTwitter + "'>@ " + data.gitTwitter + "</a>";
-    localStorage.setItem("follow",data.followers);
+    document.getElementById('socialMedia').innerHTML = "<a href='https://twitter.com/" + data.id + "'>@ " + data.twitter_username + "</a>";
+    
 
 }
